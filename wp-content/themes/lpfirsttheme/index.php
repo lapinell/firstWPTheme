@@ -1,7 +1,12 @@
 <?php get_header() ?>
-<div>
   <header>
     <h1>My Dev Diary</h1>
+    <div class="navigation container">
+      <button id="homeBtn">Home</button>
+      <button id="diaryBtn">Diary</button>
+      <button id="aboutBtn">About</button>
+      <button id="contactBtn">Contact</button>
+    </div>
   </header>
   <section>
     <h2>My First WordPress Theme From Scratch</h2>
@@ -20,12 +25,14 @@
       <li>Visual Code Studio</li>
       <li>Github</li>
       <li>Git</li>
+      <li>Design Grid Overlay Chrome Extension</li>
     </ul>
     <h3>Educational Tools and References Used</h3>
     <ul>
       <li><a href="https://cssgridgarden.com/">Grid Garden</a></li>
       <li>WordPress Codex</li>
       <li>Twenty-Nineteen Theme by Auttomatic</li>
+      <li>CSS Tricks</li>
     </ul>
   </section>
 <?php get_footer()?>
