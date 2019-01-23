@@ -20,4 +20,4 @@
     <?php wp_enqueue_script( 'themeslug_enqueue_style' ); ?>
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body class="container">

@@ -10,3 +10,9 @@
   Tags: 
   Text Domain: lpfirsttheme
 */
+
+/* Grid Basics */
+
+.container {
+  display: grid;
+}
