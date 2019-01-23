@@ -13,6 +13,35 @@
 
 /* Grid Basics */
 
-.container {
+.grid {
   display: grid;
+}
+
+.container-block {
+  display: block;
+}
+
+body {
+  background: repeat url("../../uploads/2019/01/crossword-300x300.png");
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body.grid {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas: 
+  ". header ."
+  ". main ."
+  ". footer .";
+}
+
+body.grid .container-block {
+  grid-column-start: 2;
+}
+
+/* Headers */
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Ubuntu Mono', monospace;
 }
